@@ -1,0 +1,27 @@
+camera:
+  calibration:
+    image:
+      crop_width_center: 632
+      crop_height_center: 512
+      height: 720
+      width: 720
+      calib_center_h: 357.372847
+      calib_center_w: 358.127690
+    z_calib:
+      a0: -2.070042e+02
+      a1: 0
+      a2: 2.236156e-03
+      a3: -5.357427e-06
+      a4: 1.770951e-08
+    affine_calib:
+      c: 1.000003
+      d: 0.000309
+      e: 0.000490
+  exposure: 7000
+deepfisheye:
+  gpu_ids: "0" # if multiple, use comma. (e.g. 0,1,2)
+  img_size: 256
+  mode: eval
+  norm_type: instance
+  joint_scale: 1
+  weight_file: deepfisheye_weight_UIST2020.pth.tar

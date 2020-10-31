@@ -1,0 +1,7 @@
+matplotlib
+opencv-python
+pip-chill
+pyyaml
+scipy
+#spinnaker-python
+torchvision
