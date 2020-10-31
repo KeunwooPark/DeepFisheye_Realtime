@@ -59,5 +59,8 @@ min_cutoff = 1
 beta = 0.05
 d_cutoff = 1.0
 ```
+### Camera exposure
+Camera exposure can be controlled in ```setting.yaml```. Please set exposure not to make image too bright or too dark. If ```exposure: -1```, it is set automatically.
+
 ## Contact
 If you have any questions, please contact [Keunwoo Park](http://kwpark.io) or add an issue.
