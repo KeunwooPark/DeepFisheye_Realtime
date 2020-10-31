@@ -16,6 +16,11 @@ $ pip install -r requirements.txt
 #### 4. Download the pretrained weight file
 Download the file from [Google Drive](https://drive.google.com/file/d//1C_kbaw1Ull4D_JHgDkhrLwdjCITzj-8E/view?usp=sharing) and put the file in the root directory.
 
+#### 5. Run
+```shell
+$ python demo.py
+```
+
 ## Apparatus
 
 DeepFisheye is tested with the following apparatus.
