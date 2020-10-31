@@ -1,0 +1,3 @@
+[submodule "DeepFisheyeNet"]
+	path = DeepFisheyeNet
+	url = git@github.com:KAIST-HCIL/DeepFisheyeNet.git
